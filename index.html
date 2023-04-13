@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mai Lee Vis Dev Portfolio</title>
+<link href="telikoscss.css" rel="stylesheet" type="text/css">
+<link href="jquery-tabs/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+  <header></header>
+  <nav>
+    <ul class="topnav">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="pagedesc">VISUAL DEVELOPMENT PORTFOLIO</div>
+  <div class="flex-container">
+    <div class="makemestack meat" style="flex-grow:2">
+      <div id="part1"><a href="gallery.html"><img src="images/galleryhi.png" alt="gallery highlights"></a></div>
+      <article id="part2"> <a href="process.html"><b>-Some Text-</b><br>. Sit, blanditiis? uh euwhdiuew Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius enim nulla perferendis architecto veniam quae tenetur, dignissimos. Sit, blanditiis uh euwhdiuew Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eius enim nulla perferendis architecto veniam quae tenetur, dignissimos. Sit, blanditiis </a></article>
+      <section id="part3"><a href="services.html"><img src="images/workwithme.png" alt="brainstorming process"></a></section>
+    </div>
+    <div class="makemestack potatoes" style="flex-grow:1">
+      <aside class="main-page-FAQ">
+        <p>F.A.Q.</p>
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nostrum?"</p>
+        <p>- Yes.</p>
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nostrum?"</p>
+        <p>- No.</p>
+        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, nostrum?"</p>
+        <p>- Maybe.</p>
+      </aside>
+    </div>
+  </div>
+  <div>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Brainstorming</a></li>
+        <li><a href="#tabs-2">Drafting</a></li>
+        <li><a href="#tabs-3">Designing</a></li>
+      </ul>
+      <div id="tabs-1">Comin' up with some ideas.</div>
+      <div id="tabs-2">Sketchin' out those ideas.</div>
+      <div id="tabs-3">Drawin' those ideas.</div>
+    </div>
+    <script src="jquery-tabs/external/jquery/jquery.js"></script> 
+    <script src="jquery-tabs/jquery-ui.js"></script> 
+    <script>
+$( "#tabs" ).tabs();
+</script> 
+  </div>
+  <footer>Copyright &copy; M. Lee</footer>
+</div>
+</body>
+</html>
