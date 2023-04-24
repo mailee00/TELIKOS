@@ -227,6 +227,9 @@ ul.topnav li.right {
     padding: 10px;
   }
 }
+.galsub img {
+	width:90%;
+}
 /*SERVICES PAGE - SERVICES PAGE - SERVICES PAGE - SERVICES PAGE*/
 .flex-container3 {
   display: flex;
