@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 body {
-  background-image: url("images/chalktex.jpg");
+  background-image: url("images/chalktexscale.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "tenso", sans-serif;
@@ -114,6 +114,8 @@ ul.topnav li.right {
   width: 100%;
   margin: 5px;
   background-color: white;
+	border-color:#F11B36;
+	border-style:solid;
 }
 #part1 > a > img {
   width: 800px;
@@ -127,6 +129,8 @@ ul.topnav li.right {
   background-color: #F11B36;
   text-align: center;
   padding: 10px;
+	border-color:white;
+	border-style:solid;
 }
 #part2 > a {
   text-decoration: none;
@@ -140,6 +144,8 @@ ul.topnav li.right {
   display: flex;
   justify-content: center;
   align-items: center;
+	border-color:#F11B36;
+	border-style:solid;
 }
 #part3 > a > img {
   width: 470px;
@@ -178,7 +184,18 @@ ul.topnav li.right {
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding: 10px;
+  padding: 25px;
+	border-color:white;
+	border-style:solid;
+}
+.faqheader {
+	font-family: "p22-freely", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 20px;
+}
+.faqquestion {
+	color:hsla(193,38%,28%,1.00);
 }
 @media (max-width: 1220px) {
   .main-page-FAQ {
@@ -342,15 +359,16 @@ ul.topnav li.right {
 }
 .flex-container5 img {
   padding-left: 10px;
-  width: inherit;
+  width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+	border-radius:30%;
 }
 .aboutme {
   text-align: center;
   margin: 0 auto;
-  padding-top: 75px;
+  padding-top: 40px;
 }
 @media (max-width: 1000px) {
   .flex-container5 {
@@ -417,10 +435,15 @@ color: white;
   font-weight: 400;
   font-style: normal;
 }
+@media (max-width: 1000px) {
+  .flex-container6 {
+    width: 90%;
+  }
+}
 /*FOOTER information --------------------------------*/
 footer {
   margin: 0 auto;
   background-color: black;
   color: white;
   text-align: center;
-}
+	}
